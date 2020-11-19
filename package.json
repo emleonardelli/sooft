@@ -1,0 +1,38 @@
+{
+  "name": "app_nutricional",
+  "version": "0.1.0",
+  "description": "Sistema de Luis Corredor para APP de gestion de datos nutricionales",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emleonardelli/lc_nutricional.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emleonardelli/lc_nutricional/issues"
+  },
+  "homepage": "https://github.com/emleonardelli/lc_nutricional#readme",
+  "dependencies": {
+    "@pusher/push-notifications-server": "^1.2.0",
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^2.3.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nanoid": "^2.1.11",
+    "pm2": "^4.2.3",
+    "pusher": "^3.0.0",
+    "swagger-ui-express": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

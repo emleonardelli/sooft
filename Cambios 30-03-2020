@@ -1,0 +1,15 @@
+Cambios 30-03-2020
+
+-crear perfil
+    para mas adelante
+    
+-crear dos endpoint nuevos
+    -get alimentos con fecha desde y hasta
+    -get totales con fecha desde y hasta
+
+-cargar alimentos por csv
+
+-nuevo endpoint de /food/{user_id}
+    donde se obtengan todos los alimentos
+    del admin y propios
+    publicos y privados
